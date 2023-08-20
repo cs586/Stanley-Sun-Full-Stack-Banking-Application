@@ -38,7 +38,7 @@ const RegisterPopUp = ({ handleClose }) => {
 
   const formik = useFormik({
     initialValues: {
-      userPic: "/images/Avatar0.png",
+      userPic: "/Avatar0.png",
       name: "",
       email: "",
       password: "",
@@ -151,19 +151,19 @@ const RegisterPopUp = ({ handleClose }) => {
                         onChange={formik.handleChange}
                         label="Avatar"
                       >
-                        <MenuItem value="/images/Avatar0.png">Default</MenuItem>
-                        <MenuItem value="/images/Avatar1.png">
+                        <MenuItem value="/Avatar0.png">Default</MenuItem>
+                        <MenuItem value="/Avatar1.png">
                           Female 1
                         </MenuItem>
-                        <MenuItem value="/images/Avatar5.png">
+                        <MenuItem value="/Avatar5.png">
                           Female 2
                         </MenuItem>
-                        <MenuItem value="/images/Avatar6.png">
+                        <MenuItem value="/Avatar6.png">
                           Female 3
                         </MenuItem>
-                        <MenuItem value="/images/Avatar2.png">Male 1</MenuItem>
-                        <MenuItem value="/images/Avatar4.png">Male 2</MenuItem>
-                        <MenuItem value="/images/Avatar3.png">Male 3</MenuItem>
+                        <MenuItem value="/Avatar2.png">Male 1</MenuItem>
+                        <MenuItem value="/Avatar4.png">Male 2</MenuItem>
+                        <MenuItem value="/Avatar3.png">Male 3</MenuItem>
                       </Select>
                     </FormControl>
                   </Box>

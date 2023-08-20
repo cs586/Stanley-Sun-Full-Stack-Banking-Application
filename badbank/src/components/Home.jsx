@@ -19,12 +19,11 @@ const Home = () => {
       <div className="card-container">
         <div className="card" style={customStyles}>
           <h5 className="card-title">Bad Bank</h5>
-          <img src="/images/money.jpg" className="card-img-top" alt="..." />
+          <img src="/money.jpg" className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="card-text">
-              Welcome! to the safest bank in the virtual world. We promise you
-              that we will
-              <span className="bad-policy-practice">not</span> secure your data.
+              The 'safest' bank is here. Data protection is on your own to
+              <span className="bad-policy-practice">(-///_///-)</span> secure your data.
             </p>
           </div>
         </div>
